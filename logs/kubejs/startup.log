@@ -1,0 +1,16 @@
+[15:55:17] [INIT] KubeJS 2001.6.5-build.26; MC 2001 forge
+[15:55:17] [INIT] Loaded plugins:
+[15:55:17] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[15:55:17] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[15:55:17] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[15:55:17] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[15:55:17] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[15:55:17] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[15:55:17] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[15:55:17] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[15:55:17] [INIT] - com.mega.revelationfix.common.compat.kjs.KubeJSPlugin
+[15:55:17] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[15:55:17] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[15:55:19] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[15:55:19] [INFO] Loaded script startup_scripts:example.js in 0.117 s
+[15:55:19] [INFO] Loaded 1/1 KubeJS startup scripts in 1.059 s with 0 errors and 0 warnings
