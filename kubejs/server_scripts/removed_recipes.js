@@ -1,0 +1,32 @@
+//Made by zakarum5835
+
+ServerEvents.recipes(event => {
+
+event.remove({ id: 'legendarysurvivaloverhaul:canteen' })
+event.remove({ id: 'legendarysurvivaloverhaul:large_canteen' })
+event.remove({ id: 'legendarysurvivaloverhaul:bandage' })
+event.remove({ id: 'legendarysurvivaloverhaul:medkit' })
+event.remove({ id: 'minecraft:diamond_helmet' })
+event.remove({ id: 'minecraft:diamond_chestplate' })
+event.remove({ id: 'minecraft:diamond_leggings' })
+event.remove({ id: 'minecraft:diamond_boots' })
+event.remove({ id: 'minecraft:diamond_shovel' })
+event.remove({ id: 'minecraft:diamond_hoe' })
+event.remove({ id: 'minecraft:diamond_pickaxe' })
+event.remove({ id: 'minecraft:diamond_axe' })
+event.remove({ id: 'minecraft:diamond_sword' })
+event.remove({ id: 'minecraft:netherite_helmet_smithing' })
+event.remove({ id: 'minecraft:netherite_chestplate_smithing' })
+event.remove({ id: 'minecraft:netherite_leggings_smithing' })
+event.remove({ id: 'minecraft:netherite_boots_smithing' })
+event.remove({ id: 'blazegear:nethersteel_helmet' })
+event.remove({ id: 'blazegear:nethersteel_chestplate' })
+event.remove({ id: 'blazegear:nethersteel_leggings' })
+event.remove({ id: 'blazegear:nethersteel_boots' })
+event.remove({ id: 'blazegear:nethersteel_sword' })
+event.remove({ id: 'blazegear:nethersteel_pickaxe' })
+event.remove({ id: 'blazegear:nethersteel_axe' })
+event.remove({ id: 'blazegear:nethersteel_shovel' })
+event.remove({ id: 'blazegear:nethersteel_hoe' })
+
+})

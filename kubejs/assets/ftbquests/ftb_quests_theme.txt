@@ -1,0 +1,17 @@
+[5532159C0D6B96C3]
+background: ftb:textures/quests/themefiles/theabyss.png; tint=#00000000
+
+[1C1F9E5B38CA01E1]
+background: ftb:textures/quests/themefiles/timeisrunningout.png; tint=#00000000
+
+[44B793931A5EA881]
+background: ftb:textures/quests/themefiles/blackwood.png; tint=#00000000
+
+[103E40894770BFC3]
+background: ftb:textures/quests/themefiles/blackwood.png; tint=#00000000
+
+[606CED5F816618D2]
+background: ftb:textures/quests/themefiles/blackwood.png; tint=#00000000
+
+[2D753CCFD369E148]
+background: ftb:textures/quests/themefiles/forget_me.png; tint=#00000000
