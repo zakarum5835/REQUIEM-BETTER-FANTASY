@@ -1,95 +1,34 @@
 // Made by KCtops6
 
 ServerEvents.recipes(event => {
-    // Recipe 1: Cursed Ring
-    event.custom({
-        type: "forbidden_arcanus:create_item",
-        additional_requirements: {
-            forge_tier: 3
-        },
-        essences: {
-            aureal: 85,
-            blood: 1000,
-            experience: 0,
-            souls: 1
-        },
-        inputs: [
-            { amount: 1, ingredient: { item: "enigmaticaddons:revival_leaf" } },
-            { amount: 1, ingredient: { item: "enigmaticlegacy:blazing_core" } },
-            { amount: 1, ingredient: { item: "enigmaticaddons:ocean_stone" } },
-            { amount: 1, ingredient: { item: "enigmaticlegacy:angel_blessing" } },
-            { amount: 1, ingredient: { item: "enigmaticlegacy:eye_of_nebula" } },
-            { amount: 1, ingredient: { item: "enigmaticlegacy:golem_heart" } }
-        ],
-        main_ingredient: {
-            item: "enigmaticlegacy:the_cube"
-        },
-        result: {
-            type: "forbidden_arcanus:create_item",
-            result_item: {
-                Count: 1,
-                id: "enigmaticlegacy:cursed_ring"
-            }
-        }
-    });
 
-    // Recipe 2: Twisted Heart
-    event.custom({
-        type: "forbidden_arcanus:create_item",
-        additional_requirements: {
-            forge_tier: 3
-        },
-        essences: {
-            aureal: 85,
-            blood: 1000,
-            experience: 0,
-            souls: 1
-        },
-        inputs: [
-            { amount: 1, ingredient: { item: "minecraft:ghast_tear" } },
-            { amount: 2, ingredient: { item: "minecraft:blaze_powder" } },
-            { amount: 2, ingredient: { item: "minecraft:redstone" } },
-            { amount: 1, ingredient: { item: "minecraft:ender_eye" } }
-        ],
-        main_ingredient: {
-            item: "enigmaticlegacy:earth_heart"
-        },
-        result: {
-            type: "forbidden_arcanus:create_item",
-            result_item: {
-                Count: 1,
-                id: "enigmaticlegacy:twisted_heart"
-            }
-        }
-    });
+    // 1. Cursed Ring
+    event.recipes.forbidden_arcanus.ritual(RitualResults.ofCreateItemResult(Item.of("enigmaticlegacy:cursed_ring")), "enigmaticlegacy:the_cube")
+        .addInput("enigmaticaddons:revival_leaf", 1)
+        .addInput("enigmaticlegacy:blazing_core", 1)
+        .addInput("enigmaticaddons:ocean_stone", 1)
+        .addInput("enigmaticlegacy:angel_blessing", 1)
+        .addInput("enigmaticlegacy:eye_of_nebula", 1)
+        .addInput("enigmaticlegacy:golem_heart", 1)
+        .essences(85, 1000, 0, 1)
+        .tier(3);
 
-    // Recipe 3: Pure Heart
-    event.custom({
-        type: "forbidden_arcanus:create_item",
-        additional_requirements: {
-            forge_tier: 3
-        },
-        essences: {
-            aureal: 85,
-            blood: 1000,
-            experience: 0,
-            souls: 1
-        },
-        inputs: [
-            { amount: 1, ingredient: { item: "minecraft:ghast_tear" } },
-            { amount: 2, ingredient: { item: "enigmaticaddons:ichor_droplet" } },
-            { amount: 2, ingredient: { item: "minecraft:glowstone_dust" } },
-            { amount: 1, ingredient: { item: "minecraft:ender_eye" } }
-        ],
-        main_ingredient: {
-            item: "enigmaticlegacy:earth_heart"
-        },
-        result: {
-            type: "forbidden_arcanus:create_item",
-            result_item: {
-                Count: 1,
-                id: "enigmaticaddons:pure_heart"
-            }
-        }
-    });
+    // 2. Twisted Heart
+    event.recipes.forbidden_arcanus.ritual(RitualResults.ofCreateItemResult(Item.of("enigmaticlegacy:twisted_heart")), "enigmaticlegacy:earth_heart")
+        .addInput("minecraft:ghast_tear", 1)
+        .addInput("minecraft:blaze_powder", 2)
+        .addInput("minecraft:redstone", 2)
+        .addInput("minecraft:ender_eye", 1)
+        .essences(85, 1000, 0, 1)
+        .tier(3);
+
+    // 3. Pure Heart
+    event.recipes.forbidden_arcanus.ritual(RitualResults.ofCreateItemResult(Item.of("enigmaticaddons:pure_heart")), "enigmaticlegacy:earth_heart")
+        .addInput("minecraft:ghast_tear", 1)
+        .addInput("enigmaticaddons:ichor_droplet", 2)
+        .addInput("minecraft:glowstone_dust", 2)
+        .addInput("minecraft:ender_eye", 1)
+        .essences(85, 1000, 0, 1)
+        .tier(3);
+
 });
