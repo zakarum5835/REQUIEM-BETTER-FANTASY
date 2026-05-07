@@ -3,7 +3,7 @@
 ServerEvents.recipes(event => {
     // Recipe 1: Cursed Ring
     event.custom({
-        type: "forbidden_arcanus:hephaestus_forge_ritual", // <--- Added this
+        type: "forbidden_arcanus:create_item",
         additional_requirements: {
             forge_tier: 3
         },
@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
 
     // Recipe 2: Twisted Heart
     event.custom({
-        type: "forbidden_arcanus:hephaestus_forge_ritual", // <--- Added this
+        type: "forbidden_arcanus:create_item",
         additional_requirements: {
             forge_tier: 3
         },
@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
 
     // Recipe 3: Pure Heart
     event.custom({
-        type: "forbidden_arcanus:hephaestus_forge_ritual", // <--- Added this
+        type: "forbidden_arcanus:create_item",
         additional_requirements: {
             forge_tier: 3
         },
