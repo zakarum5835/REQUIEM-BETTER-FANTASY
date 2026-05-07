@@ -1,0 +1,49 @@
+[19:22:45] [INIT] KubeJS 2001.6.5-build.26; MC 2001 forge
+[19:22:45] [INIT] Loaded plugins:
+[19:22:45] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[19:22:45] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[19:22:45] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[19:22:45] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[19:22:45] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[19:22:45] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[19:22:45] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[19:22:45] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[19:22:45] [INIT] - com.mega.revelationfix.common.compat.kjs.KubeJSPlugin
+[19:22:45] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[19:22:45] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[19:22:45] [INFO] Loaded script server_scripts:crystal_recipes.js in 0.0 s
+[19:22:45] [INFO] Loaded script server_scripts:drops/new_drops.js in 0.0 s
+[19:22:45] [INFO] Loaded script server_scripts:first_recipes.js in 0.0 s
+[19:22:45] [INFO] Loaded script server_scripts:gear_upgrade.js in 0.001 s
+[19:22:45] [INFO] Loaded script server_scripts:gear_upgrade2.js in 0.0 s
+[19:22:45] [INFO] Loaded script server_scripts:loot/modifiers.js in 0.0 s
+[19:22:45] [INFO] Loaded script server_scripts:loot/removed_items_from_chests.js in 0.001 s
+[19:22:45] [INFO] Loaded script server_scripts:new_events/tags.js in 0.0 s
+[19:22:45] [INFO] Loaded script server_scripts:recipes/custom/forbidden-arcanus/ritual.js in 0.001 s
+[19:22:45] [INFO] Loaded script server_scripts:recipes_with_tags.js in 0.0 s
+[19:22:45] [INFO] Loaded script server_scripts:removed_recipes.js in 0.001 s
+[19:22:45] [INFO] Loaded script server_scripts:shapeless_recipes.js in 0.0 s
+[19:22:45] [INFO] Loaded script server_scripts:smelting_recipes.js in 0.0 s
+[19:22:45] [INFO] Loaded script server_scripts:storyline_recipes/creative_essence.js in 0.0 s
+[19:22:45] [INFO] Loaded script server_scripts:storyline_recipes/custom/goety/rituals/craft/asbtraction.js in 0.0 s
+[19:22:45] [INFO] Loaded script server_scripts:storyline_recipes/custom/goety/rituals/craft/infernal_tome.js in 0.001 s
+[19:22:45] [INFO] Loaded script server_scripts:storyline_recipes/custom/goety/rituals/craft/zaka_star.js in 0.0 s
+[19:22:45] [INFO] Loaded script server_scripts:storyline_recipes/first_music_disc.js in 0.0 s
+[19:22:45] [INFO] Loaded script server_scripts:storyline_recipes/remove.js in 0.0 s
+[19:22:45] [INFO] Loaded script server_scripts:weapons1.js in 0.001 s
+[19:22:45] [INFO] Loaded 20/20 KubeJS server scripts in 0.014 s with 0 errors and 0 warnings
+[19:22:45] [INFO] Scripts loaded
+[19:22:45] [INFO] Initializing recipe event...
+[19:22:45] [INFO] [minecraft:block] Found 1163 tags, added 1 objects, removed 0 objects
+[19:22:46] [INFO] Processing recipes...
+[19:22:46] [WARN] Failed to parse recipe 'goety:end/big_end_stone_bricks_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[19:22:46] [WARN] Failed to parse recipe 'celestisynth:celestial_spellbook[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[19:22:46] [WARN] Failed to parse recipe 'starcatcher:aquaculture_fillet[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[19:22:46] [WARN] Failed to parse recipe 'incendium:upgrade_elytra[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[19:22:46] [INFO] Found 20421 recipes in 90.68 ms
+[19:22:46] [ERROR] ! recipes/custom/forbidden-arcanus/ritual.js#5: Failed to create custom JSON recipe from '{"type":"forbidden_arcanus:hephaestus_forge_ritual","additional_requirements":{"forge_tier":3},"essences":{"aureal":85,"blood":1000,"experience":0,"souls":1},"inputs":[{"amount":1,"ingredient":{"item":"enigmaticaddons:revival_leaf"}},{"amount":1,"ingredient":{"item":"enigmaticlegacy:blazing_core"}},{"amount":1,"ingredient":{"item":"enigmaticaddons:ocean_stone"}},{"amount":1,"ingredient":{"item":"enigmaticlegacy:angel_blessing"}},{"amount":1,"ingredient":{"item":"enigmaticlegacy:eye_of_nebula"}},{"amount":1,"ingredient":{"item":"enigmaticlegacy:golem_heart"}}],"main_ingredient":{"item":"enigmaticlegacy:the_cube"},"result":{"type":"forbidden_arcanus:create_item","result_item":{"Count":1,"id":"enigmaticlegacy:cursed_ring"}}}': Unknown recipe type: forbidden_arcanus:hephaestus_forge_ritual
+[19:22:46] [ERROR] ! recipes/custom/forbidden-arcanus/ritual.js#37: Failed to create custom JSON recipe from '{"type":"forbidden_arcanus:hephaestus_forge_ritual","additional_requirements":{"forge_tier":3},"essences":{"aureal":85,"blood":1000,"experience":0,"souls":1},"inputs":[{"amount":1,"ingredient":{"item":"minecraft:ghast_tear"}},{"amount":2,"ingredient":{"item":"minecraft:blaze_powder"}},{"amount":2,"ingredient":{"item":"minecraft:redstone"}},{"amount":1,"ingredient":{"item":"minecraft:ender_eye"}}],"main_ingredient":{"item":"enigmaticlegacy:earth_heart"},"result":{"type":"forbidden_arcanus:create_item","result_item":{"Count":1,"id":"enigmaticlegacy:twisted_heart"}}}': Unknown recipe type: forbidden_arcanus:hephaestus_forge_ritual
+[19:22:46] [ERROR] ! recipes/custom/forbidden-arcanus/ritual.js#67: Failed to create custom JSON recipe from '{"type":"forbidden_arcanus:hephaestus_forge_ritual","additional_requirements":{"forge_tier":3},"essences":{"aureal":85,"blood":1000,"experience":0,"souls":1},"inputs":[{"amount":1,"ingredient":{"item":"minecraft:ghast_tear"}},{"amount":2,"ingredient":{"item":"enigmaticaddons:ichor_droplet"}},{"amount":2,"ingredient":{"item":"minecraft:glowstone_dust"}},{"amount":1,"ingredient":{"item":"minecraft:ender_eye"}}],"main_ingredient":{"item":"enigmaticlegacy:earth_heart"},"result":{"type":"forbidden_arcanus:create_item","result_item":{"Count":1,"id":"enigmaticaddons:pure_heart"}}}': Unknown recipe type: forbidden_arcanus:hephaestus_forge_ritual
+[19:22:46] [INFO] Posted recipe events in 7.766 ms
+[19:22:46] [INFO] Added 35 recipes, removed 50 recipes, modified 579 recipes, with 3 failed recipes in 32.15 ms
+[19:22:48] [INFO] Server resource reload complete!
