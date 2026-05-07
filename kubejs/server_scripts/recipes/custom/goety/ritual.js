@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
                 item: "goety:crone_hat"
             },
             {
-                tag: "goety:warlock_sash"
+                item: "goety:warlock_sash"
             },
             {
                 item: "brutality:darkin_blade"
