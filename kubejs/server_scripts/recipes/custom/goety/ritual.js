@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
             item: "zakarumtweaks:zaka_star"
         },
         craftType: "sabbath",
-        entity_to_summon: "goety:apostle",
+        entity_to_summon: "goety:summon_apostle",
         soulCost: 1,
         duration: 30,
         ingredients: [
