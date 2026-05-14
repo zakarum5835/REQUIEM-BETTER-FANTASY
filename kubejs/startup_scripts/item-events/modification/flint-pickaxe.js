@@ -3,6 +3,7 @@
 
 ItemEvents.modification(event => {
     console.info('KubeJS: Item modification script started...');
+    console.info("CHECKING MODS: No Tree Punching loaded? " + Platform.isModLoaded('notreepunching'));
     const modifyTier = (itemID, newLevel) => {
         try {
             console.info(`KubeJS: Attempting to modify tier for [${itemID}] to level ${newLevel}`);
