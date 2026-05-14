@@ -20,6 +20,5 @@ ItemEvents.modification(event => {
         }
     };
     modifyTier('notreepunching:flint_pickaxe', 0);
-    modifyTier('minecraft:netherite_pickaxe', 0);
     console.info('KubeJS: Item modification script finished.');
 });
