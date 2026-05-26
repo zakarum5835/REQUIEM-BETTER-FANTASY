@@ -46,4 +46,6 @@ LootJS.modifiers(event => {
                 ctx.loot.clear();
             });
     });
+    event.addLootTableModifier().hasDimension("minecraft:overworld")
+        .removeLoot(/.*(diamond|iron)_(sword|shovel|pickaxe|axe|hoe|helmet|chestplate|leggings|boots)/);
 });
