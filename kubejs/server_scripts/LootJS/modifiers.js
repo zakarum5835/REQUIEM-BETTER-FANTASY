@@ -1,5 +1,7 @@
 // Made by KCtops6
 
+// Source: https://github.com/AlmostReliable/lootjs/wiki/1.20.1 
+
 LootJS.modifiers(event => {
     event.addLootTableModifier(/^twilightforest:chests\/.*/).removeLoot('minecraft:blaze_rod');
     event.addLootTableModifier(/^minecraft:chests\/.*/).removeLoot('minecraft:netherite_upgrade_smithing_template');
@@ -46,6 +48,6 @@ LootJS.modifiers(event => {
                 ctx.loot.clear();
             });
     });
-    event.addLootTableModifier().hasDimension("minecraft:overworld")
+    event.addLootTableModifier().anyDimension("minecraft:overworld")
         .removeLoot(/.*(diamond|iron)_(sword|shovel|pickaxe|axe|hoe|helmet|chestplate|leggings|boots)/);
 });
