@@ -6,6 +6,7 @@ LootJS.modifiers(event => {
     event.addLootTableModifier(/^twilightforest:chests\/.*/).removeLoot('minecraft:blaze_rod');
     event.addLootTableModifier(/^minecraft:chests\/.*/).removeLoot('minecraft:netherite_upgrade_smithing_template');
     event.addEntityLootModifier('goety:heretic').removeLoot('goety:infernal_tome');
+    event.addEntityLootModifier('goety:heresiarch').removeLoot('goety:malefic_helm');
     const NETHERITE_LEVEL_PICKAXES = [
         'minecraft:netherite_pickaxe', 'mekanismtools:refined_obsidian_pickaxe', 'terramity:dimlite_pickaxe',
         'terramity:virentium_pickaxe', 'terramity:cosmilite_pickaxe', 'terramity:iridium_pickaxe',
@@ -50,5 +51,4 @@ LootJS.modifiers(event => {
     });
     event.addLootTableModifier(/.*/).anyDimension("minecraft:overworld")
         .removeLoot(/.*(diamond|iron)_(sword|shovel|pickaxe|axe|hoe|helmet|chestplate|leggings|boots)/);
-    event.addEntityLootModifier('goety:heresiarch').removeLoot('goety:malefic_helm');
 });
