@@ -52,3 +52,9 @@ LootJS.modifiers(event => {
     event.addLootTableModifier(/.*/).anyDimension("minecraft:overworld")
         .removeLoot(/.*(diamond|iron)_(sword|shovel|pickaxe|axe|hoe|helmet|chestplate|leggings|boots)/);
 });
+
+// Made by zakarum5835
+
+EntityEvents.drops('goety:heresiarch', (event) => {
+  event.cancel();
+});
