@@ -6,7 +6,21 @@ LootJS.modifiers(event => {
     event.addLootTableModifier(/^twilightforest:chests\/.*/).removeLoot('minecraft:blaze_rod');
     event.addLootTableModifier(/^minecraft:chests\/.*/).removeLoot('minecraft:netherite_upgrade_smithing_template');
     event.addEntityLootModifier('goety:heretic').removeLoot('goety:infernal_tome');
-    event.addEntityLootModifier('goety:heresiarch').removeLoot('goety:malefic_helm');
+    // --- DEBUGGING FOR HERESIARCH ---
+    console.info("[LootJS Debug] Registering modifier for goety:heresiarch");
+    event.addEntityLootModifier('goety:heresiarch')
+        .apply(ctx => {
+            console.info(`[LootJS Debug] Heresiarch modifier triggered! Current drops before removal: ${ctx.loot}`);
+            
+            // Explicitly check if the helm is in the loot pool before attempting removal
+            let hasHelm = ctx.loot.contains('goety:malefic_helm');
+            console.info(`[LootJS Debug] Is 'goety:malefic_helm' present in loot? ${hasHelm}`);
+            
+            ctx.loot.remove('goety:malefic_helm');
+            
+            console.info(`[LootJS Debug] Heresiarch modifier finished. Remaining drops: ${ctx.loot}`);
+        });
+    // --------------------------------
     const NETHERITE_LEVEL_PICKAXES = [
         'minecraft:netherite_pickaxe', 'mekanismtools:refined_obsidian_pickaxe', 'terramity:dimlite_pickaxe',
         'terramity:virentium_pickaxe', 'terramity:cosmilite_pickaxe', 'terramity:iridium_pickaxe',
