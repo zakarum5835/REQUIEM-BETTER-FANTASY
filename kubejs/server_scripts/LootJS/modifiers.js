@@ -50,4 +50,5 @@ LootJS.modifiers(event => {
     });
     event.addLootTableModifier(/.*/).anyDimension("minecraft:overworld")
         .removeLoot(/.*(diamond|iron)_(sword|shovel|pickaxe|axe|hoe|helmet|chestplate|leggings|boots)/);
+    event.addEntityLootModifier('goety:heresiarch').removeLoot('goety:malefic_helm');
 });
