@@ -64,7 +64,9 @@ LootJS.modifiers(event => {
             });
     });
     event.addLootTableModifier(/.*/).anyDimension("minecraft:overworld")
-        .removeLoot(/.*(diamond|iron)_(sword|shovel|pickaxe|axe|hoe|helmet|chestplate|leggings|boots)/);
+        .removeLoot(/.*(diamond|iron)_(sword|shovel|pickaxe|axe|hoe|helmet|chestplate|leggings|boots)/)
+        .removeLoot('minecraft:blaze_rod')
+        .removeLoot('minecraft:blaze_powder');
 });
 
 // Made by zakarum5835
