@@ -1,0 +1,180 @@
+[01:05:11] [INFO] loot/overworld_modified_events.js#10: [LootJS Debug] Registering modifier for goety:heresiarch
+[01:05:12] [INIT] KubeJS 2001.6.5-build.26; MC 2001 forge
+[01:05:12] [INIT] Loaded plugins:
+[01:05:12] [INIT] - mod.chloeprime.aaaparticles.common.compat.kubejs.AAAParticleKubeJSPlugin
+[01:05:12] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[01:05:12] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[01:05:12] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[01:05:12] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[01:05:12] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[01:05:12] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[01:05:12] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[01:05:12] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[01:05:12] [INIT] - com.chen1335.forbiddenAndArcanusJS.kubejs.ForbiddenArcanusJSPlugin
+[01:05:12] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[01:05:12] [INIT] - com.mega.revelationfix.common.compat.kjs.KubeJSPlugin
+[01:05:12] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[01:05:12] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[01:05:13] [INFO] Loaded script server_scripts:additional_recipes.js in 0.001 s
+[01:05:13] [INFO] Loaded script server_scripts:arsenal/axe_of_unholy_divinity.js in 0.002 s
+[01:05:13] [INFO] Loaded script server_scripts:arsenal/darkin_blade.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:arsenal/devils_devastation.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:arsenal/event_horizon.js in 0.001 s
+[01:05:13] [INFO] Loaded script server_scripts:arsenal/gaels_greatsword.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:arsenal/grievance.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:arsenal/hero_sword.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:arsenal/meow_sword.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:arsenal/murasama.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:arsenal/removed_lethality_and_terramity_recipes.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:arsenal/seventh_stars.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:arsenal/supernova.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:arsenal/vehemence.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:arsenal/violence.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:arsenal/whisperwaltz.js in 0.001 s
+[01:05:13] [INFO] Loaded script server_scripts:awakened_emerald.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:crystal_recipes.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:first_recipes.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:gear_upgrade.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:gear_upgrade2.js in 0.001 s
+[01:05:13] [INFO] Loaded script server_scripts:loot/overworld_modified_events.js in 0.001 s
+[01:05:13] [INFO] Loaded script server_scripts:loot/removed_items_from_chests.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:new drops/new_drops.js in 0.001 s
+[01:05:13] [INFO] Loaded script server_scripts:new_events/cancel-mob-spawns.js in 0.001 s
+[01:05:13] [INFO] Loaded script server_scripts:new_events/tags.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:recipes/custom/forbidden-arcanus/ritual.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:recipes/custom/forbidden-arcanus/ritual_2.js in 0.001 s
+[01:05:13] [INFO] Loaded script server_scripts:recipes_with_tags.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:removed_recipes.js in 0.001 s
+[01:05:13] [INFO] Loaded script server_scripts:smelting_recipes.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/apocalyptium_upgrade.js in 0.002 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/celestial_netherite_ingot.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/creative_essence.js in 0.001 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/custom/goety/rituals/craft/apollyon.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/custom/goety/rituals/craft/asbtraction.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/custom/goety/rituals/craft/eldritch_eye.js in 0.001 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/custom/goety/rituals/craft/infernal_tome.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/custom/goety/rituals/craft/sacrificial_dirk.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/custom/goety/rituals/craft/the_immortal.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/custom/goety/rituals/craft/yuki_star.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/custom/goety/rituals/craft/zaka_star.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/eternal_crystal.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/galactrium_shaped_recipe.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/galactrium_upgrade.js in 0.001 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/music_discs.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/remove.js in 0.002 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/removed_storyline_recipes.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/rose_gold_alloy.js in 0.001 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/second_music_disc.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/totem_of_souls.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/void_armor_upgrade.js in 0.0 s
+[01:05:13] [INFO] Loaded script server_scripts:storyline_recipes/void_weapons_upgrade.js in 0.001 s
+[01:05:13] [INFO] Loaded script server_scripts:weapons1.js in 0.0 s
+[01:05:13] [INFO] Loaded 54/54 KubeJS server scripts in 0.031 s with 0 errors and 0 warnings
+[01:05:13] [INFO] Scripts loaded
+[01:05:13] [INFO] Initializing recipe event...
+[01:05:13] [INFO] Server resource reload complete!
+[01:05:13] [INFO] [minecraft:block] Found 1269 tags, added 1 objects, removed 0 objects
+[01:05:14] [INFO] Processing recipes...
+[01:05:14] [WARN] Failed to parse recipe 'goetydelight:dark_alloy_block[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:05:14] [WARN] Failed to parse recipe 'goety:end/big_end_stone_bricks_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:05:14] [WARN] Failed to parse recipe 'celestisynth:celestial_spellbook[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:05:14] [WARN] Failed to parse recipe 'incendium:upgrade_elytra[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01:05:14] [INFO] Found 19933 recipes in 255.1 ms
+[01:05:14] [INFO] Posted recipe events in 12.27 ms
+[01:05:14] [WARN] Error parsing recipe goetydelight:ritual/soul_convergence_room_1[goety:ritual]: {"type":"goety:ritual","ritual_type":"goety:craft","activation_item":{"item":"goety:soul_convergence_room"},"craftType":"culinary","soulCost":750,"duration":10,"ingredients":[{"item":"goetydelight:gathering_soul_embryos"},{"item":"goetydelight:gathering_soul_embryos"},{"item":"goetydelight:gathering_soul_embryos"},{"item":"goetydelight:ectoplasmic_melon_block"},{"item":"goetydelight:ectoplasmic_melon_block"},{"item":"minecraft:slime_block"},{"item":"minecraft:slime_block"},{"item":"minecraft:enchanted_golden_apple"},{"item":"minecraft:bone_block"}],"result":{"item":"goetydelight:soul_convergence_room","count":8}}: Unknown item 'goety:soul_convergence_room'
+[01:05:14] [WARN] com.google.gson.JsonSyntaxException: Unknown item 'goety:soul_convergence_room'
+[01:05:14] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292)
+[01:05:14] [WARN]   at java.util.Optional.orElseThrow(Unknown Source)
+[01:05:14] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291)
+[01:05:14] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219)
+[01:05:14] [WARN]   at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27)
+[01:05:14] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148)
+[01:05:14] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194)
+[01:05:14] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189)
+[01:05:14] [WARN]   at com.Polarice3.Goety.common.crafting.RitualRecipe$Serializer.fromJson(RitualRecipe.java:217)
+[01:05:14] [WARN]   at com.Polarice3.Goety.common.crafting.RitualRecipe$Serializer.m_6729_(RitualRecipe.java:193)
+[01:05:14] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[01:05:14] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
+[01:05:14] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
+[01:05:14] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
+[01:05:14] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+[01:05:14] [WARN]   at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+[01:05:14] [WARN]   at java.util.HashMap$ValueSpliterator.forEachRemaining(Unknown Source)
+[01:05:14] [WARN]   at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[01:05:14] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(Unknown Source)
+[01:05:14] [WARN]   at java.util.concurrent.CountedCompleter.exec(Unknown Source)
+[01:05:14] [WARN] Error parsing recipe goetydelight:dark_alloy_block[minecraft:smithing_transform]: {"type":"minecraft:smithing_transform","addition":{"item":"goety:shadow_essence"},"base":{"item":"goetydelight:parasitized_warden"},"result":{"item":"goety:dark_alloy_block"},"template":{"item":"goety:shadow_essence"}}: Unknown item 'goety:dark_alloy_block'
+[01:05:14] [WARN] com.google.gson.JsonSyntaxException: Unknown item 'goety:dark_alloy_block'
+[01:05:14] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160)
+[01:05:14] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186)
+[01:05:14] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286)
+[01:05:14] [WARN]   at net.minecraft.world.item.crafting.SmithingTransformRecipe$Serializer.m_6729_(SmithingTransformRecipe.java:76)
+[01:05:14] [WARN]   at net.minecraft.world.item.crafting.SmithingTransformRecipe$Serializer.m_6729_(SmithingTransformRecipe.java:71)
+[01:05:14] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[01:05:14] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
+[01:05:14] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
+[01:05:14] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
+[01:05:14] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+[01:05:14] [WARN]   at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+[01:05:14] [WARN]   at java.util.HashMap$ValueSpliterator.forEachRemaining(Unknown Source)
+[01:05:14] [WARN]   at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[01:05:14] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(Unknown Source)
+[01:05:14] [WARN]   at java.util.concurrent.CountedCompleter.exec(Unknown Source)
+[01:05:14] [INFO] Added 110 recipes, removed 101 recipes, modified 579 recipes, with 2 failed recipes in 120.3 ms
+[01:05:15] [INFO] loot/overworld_modified_events.js#10: [LootJS Debug] Registering modifier for goety:heresiarch
+[01:05:15] [INFO] Server resource reload complete!
+[01:12:04] [ERROR] ! new_events/cancel-mob-spawns.js#10: Error in 'EntityEvents.spawned': Invalid JavaScript value of type tech.thatgravyboat.creeperoverhaul.common.entity.base.CreeperType
+[01:12:04] [ERROR] ! …rhino.EvaluatorException: Invalid JavaScript value of type tech.thatgravyboat.creeperoverhaul.common.entity.base.CreeperType (server_scripts:new_events/cancel-mob-spawns.js#10)
+[01:12:04] [ERROR] !   at …rhino.DefaultErrorReporter.runtimeError(DefaultErrorReporter.java:67)
+[01:12:04] [ERROR] !   at …rhino.Context.reportRuntimeError(Context.java:133)
+[01:12:04] [ERROR] !   at …rhino.Context.reportRuntimeError(Context.java:173)
+[01:12:04] [ERROR] !   at …rhino.Context.reportRuntimeError1(Context.java:145)
+[01:12:04] [ERROR] !   at …rhino.ScriptRuntime.errorWithClassName(ScriptRuntime.java:3217)
+[01:12:04] [ERROR] !   at …rhino.MemberType.get(MemberType.java:33)
+[01:12:04] [ERROR] !   at …rhino.ScriptRuntime.typeof(ScriptRuntime.java:2033)
+[01:12:04] [ERROR] !   at …rhino.ScriptRuntime.sameZero(ScriptRuntime.java:2354)
+[01:12:04] [ERROR] !   at …rhino.NativeArray.js_includes(NativeArray.java:1135)
+[01:12:04] [ERROR] !   at …rhino.NativeArray.execIdCall(NativeArray.java:1783)
+[01:12:04] [ERROR] !   at …rhino.IdFunctionObject.call(IdFunctionObject.java:103)
+[01:12:04] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
+[01:12:04] [ERROR] !   at script(server_scripts:new_events/cancel-mob-spawns.js:10)
+[01:12:04] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
+[01:12:04] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
+[01:12:04] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[01:12:04] [ERROR] !   at …rhino.Context.doTopCall(Context.java:1374)
+[01:12:04] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
+[01:12:04] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[01:12:04] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
+[01:12:04] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[01:12:04] [ERROR] !   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
+[01:12:04] [ERROR] !   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
+[01:12:04] [ERROR] !   at TRANSFORMER/jdk.proxy5/jdk.proxy5.$Proxy185.onEvent(Unknown Source)
+[01:12:04] [ERROR] !   at …kubejs.event.EventHandlerContainer.handle(EventHandlerContainer.java:39)
+[01:12:04] [ERROR] !   at …kubejs.event.EventHandler.postToHandlers(EventHandler.java:304)
+[01:12:04] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:272)
+[01:12:04] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:226)
+[01:12:04] [ERROR] !   at …kubejs.entity.KubeJSEntityEventHandler.entitySpawned(KubeJSEntityEventHandler.java:42)
+[01:12:04] [ERROR] !   at dev.architectury.event.forge.EventHandlerImplCommon.event(EventHandlerImplCommon.java:236)
+[01:12:04] [ERROR] !   at dev.architectury.event.forge.__EventHandlerImplCommon_event_EntityJoinLevelEvent.invoke(.dynamic)
+[01:12:04] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:55)
+[01:12:04] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:312)
+[01:12:04] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:298)
+[01:12:04] [ERROR] !   at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+[01:12:04] [ERROR] !   at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+[01:12:04] [ERROR] !   at net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:860)
+[01:12:04] [ERROR] !   at net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:815)
+[01:12:04] [ERROR] !   at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Unknown Source)
+[01:12:04] [ERROR] !   at java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+[01:12:04] [ERROR] !   at net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+[01:12:04] [ERROR] !   at net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+[01:12:04] [ERROR] !   at net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+[01:12:04] [ERROR] !   at net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+[01:12:04] [ERROR] !   at net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+[01:12:04] [ERROR] !   at net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+[01:12:04] [ERROR] !   at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+[01:12:04] [ERROR] !   at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+[01:12:04] [ERROR] !   at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+[01:12:04] [ERROR] !   at net.minecraft.client.server.IntegratedServer.m_5705_(IntegratedServer.java:89)
+[01:12:04] [ERROR] !   at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+[01:12:04] [ERROR] !   at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+[01:12:04] [ERROR] !   at java.lang.Thread.run(Unknown Source)
